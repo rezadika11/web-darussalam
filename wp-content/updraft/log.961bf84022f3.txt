@@ -1,0 +1,133 @@
+0000.002 () Opened log file at time: Sat, 21 Jan 2023 06:28:29 +0000 on https://darussalampurwokerto.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux flareon.rapidplex.com 3.10.0-962.3.2.lve1.5.66.el7.x86_64 #1 SMP Mon Feb 7 15:53:01 UTC 2022 x86_64) MySQL: 5.7.41 (max packet size=536870912) WPLANG: id_ID Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 31M | 32M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.028 () Free space on disk containing Updraft's temporary directory: 109804.5 MB
+0000.076 () Restore setup, now closing connection and starting restore over AJAX.
+0000.002 () Opened log file at time: Sat, 21 Jan 2023 06:28:30 +0000 on https://darussalampurwokerto.com
+0000.002 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux flareon.rapidplex.com 3.10.0-962.3.2.lve1.5.66.el7.x86_64 #1 SMP Mon Feb 7 15:53:01 UTC 2022 x86_64) MySQL: 5.7.41 (max packet size=536870912) WPLANG: id_ID Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 29M | 30M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.021 () Free space on disk containing Updraft's temporary directory: 109804.3 MB
+0000.021 () Ensuring WP_Filesystem is setup for a restore
+0000.022 () WP_Filesystem is setup and ready for a restore
+0000.024 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wp_options","wp_users","wp_usermeta","wp_commentmeta","wp_comments","wp_links","wp_postmeta","wp_posts","wp_term_relationships","wp_term_taxonomy","wp_termmeta","wp_terms","wp_pmxi_files","wp_pmxi_hash","wp_pmxi_history","wp_pmxi_images","wp_pmxi_imports","wp_pmxi_posts","wp_pmxi_templates","wp_smush_dir_images","wp_wpie_template","wp_yoast_indexable","wp_yoast_indexable_hierarchy","wp_yoast_migrations","wp_yoast_primary_term","wp_yoast_prominent_words","wp_yoast_seo_links"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.026 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.027 () Entity: db
+0000.027 () restore_backup(backup_file=backup_2023-01-21-0626_Ponpes_Darussalam_Purwokerto_74742d7b7439-db.gz, type=db, info=a:0:{}, last_one=)
+0000.027 () Membuka cadangan... (backup_2023-01-21-0626_Ponpes_Darussalam_Purwokerto_74742d7b7439-db.gz, 1.6 Mb)
+0000.029 () Database successfully unpacked
+0000.029 () Memulihkan database (pada situs besar akan membutuhkan waktu lama - jika waktu habis (mungkin terjadi jika penyedia hosting web Anda memberlakukan batas resource) maka Anda harus menggunakan metode lain, misalnya phpMyAdmin)...
+0000.029 () Using direct MySQL access; value of use_mysqli is: 1
+0000.029 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,IGNORE_SPACE,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.041 () Max packet size: 512 MB
+0000.041 () Entering maintenance mode
+0000.041 () Mengaktifkan moda perawatan&#8230;
+0000.047 () Backup of: https://darussalampurwokerto.com
+0000.049 () Content URL: https://darussalampurwokerto.com/wp-content
+0000.049 () Uploads URL: https://darussalampurwokerto.com/wp-content/uploads
+0000.049 () Old table prefix: wp_
+0000.049 () Site information: multisite=0
+0000.049 () Site information: sql_mode=IGNORE_SPACE,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.050 () New table prefix: 60_
+0000.052 () Processing table (MyISAM): wp_options - will restore as: 60_options
+0000.126 () Atomic restore: dropping original table (wp_options)
+0000.130 () Atomic restore: renaming new table (60_options) to final table name (wp_options)
+0000.130 () Restoring prior UD configuration (table: wp_options; keys: 4)
+0000.141 () Processing table (MyISAM): wp_users - will restore as: 60_users
+0000.147 () Atomic restore: dropping original table (wp_users)
+0000.148 () Atomic restore: renaming new table (60_users) to final table name (wp_users)
+0000.149 () Processing table (MyISAM): wp_usermeta - will restore as: 60_usermeta
+0000.156 () Atomic restore: dropping original table (wp_usermeta)
+0000.157 () Atomic restore: renaming new table (60_usermeta) to final table name (wp_usermeta)
+0000.158 () Processing table (MyISAM): wp_commentmeta - will restore as: 60_commentmeta
+0000.163 () Atomic restore: dropping original table (wp_commentmeta)
+0000.164 () Atomic restore: renaming new table (60_commentmeta) to final table name (wp_commentmeta)
+0000.165 () Processing table (MyISAM): wp_comments - will restore as: 60_comments
+0000.177 () Atomic restore: dropping original table (wp_comments)
+0000.182 () Atomic restore: renaming new table (60_comments) to final table name (wp_comments)
+0000.182 () Processing table (MyISAM): wp_links - will restore as: 60_links
+0000.191 () Atomic restore: dropping original table (wp_links)
+0000.192 () Atomic restore: renaming new table (60_links) to final table name (wp_links)
+0000.192 () Processing table (MyISAM): wp_postmeta - will restore as: 60_postmeta
+0000.512 () Database queries processed: 50 in 0.48 seconds
+0000.513 () Atomic restore: dropping original table (wp_postmeta)
+0000.519 () Atomic restore: renaming new table (60_postmeta) to final table name (wp_postmeta)
+0000.519 () Processing table (MyISAM): wp_posts - will restore as: 60_posts
+0000.598 () Atomic restore: dropping original table (wp_posts)
+0000.602 () Atomic restore: renaming new table (60_posts) to final table name (wp_posts)
+0000.603 () Processing table (MyISAM): wp_term_relationships - will restore as: 60_term_relationships
+0000.611 () Atomic restore: dropping original table (wp_term_relationships)
+0000.612 () Atomic restore: renaming new table (60_term_relationships) to final table name (wp_term_relationships)
+0000.613 () Processing table (MyISAM): wp_term_taxonomy - will restore as: 60_term_taxonomy
+0000.618 () Atomic restore: dropping original table (wp_term_taxonomy)
+0000.619 () Atomic restore: renaming new table (60_term_taxonomy) to final table name (wp_term_taxonomy)
+0000.619 () Processing table (MyISAM): wp_termmeta - will restore as: 60_termmeta
+0000.622 () Atomic restore: dropping original table (wp_termmeta)
+0000.622 () Atomic restore: renaming new table (60_termmeta) to final table name (wp_termmeta)
+0000.623 () Processing table (MyISAM): wp_terms - will restore as: 60_terms
+0000.626 () Atomic restore: dropping original table (wp_terms)
+0000.627 () Atomic restore: renaming new table (60_terms) to final table name (wp_terms)
+0000.627 () Processing table (MyISAM): wp_pmxi_files - will restore as: 60_pmxi_files
+0000.630 () Atomic restore: dropping original table (wp_pmxi_files)
+0000.631 () Atomic restore: renaming new table (60_pmxi_files) to final table name (wp_pmxi_files)
+0000.631 () Processing table (MyISAM): wp_pmxi_hash - will restore as: 60_pmxi_hash
+0000.635 () Atomic restore: dropping original table (wp_pmxi_hash)
+0000.635 () Atomic restore: renaming new table (60_pmxi_hash) to final table name (wp_pmxi_hash)
+0000.635 () Processing table (MyISAM): wp_pmxi_history - will restore as: 60_pmxi_history
+0000.639 () Atomic restore: dropping original table (wp_pmxi_history)
+0000.639 () Atomic restore: renaming new table (60_pmxi_history) to final table name (wp_pmxi_history)
+0000.640 () Processing table (MyISAM): wp_pmxi_images - will restore as: 60_pmxi_images
+0000.643 () Atomic restore: dropping original table (wp_pmxi_images)
+0000.644 () Atomic restore: renaming new table (60_pmxi_images) to final table name (wp_pmxi_images)
+0000.645 () Processing table (MyISAM): wp_pmxi_imports - will restore as: 60_pmxi_imports
+0000.648 () Atomic restore: dropping original table (wp_pmxi_imports)
+0000.648 () Atomic restore: renaming new table (60_pmxi_imports) to final table name (wp_pmxi_imports)
+0000.648 () Processing table (MyISAM): wp_pmxi_posts - will restore as: 60_pmxi_posts
+0000.651 () Atomic restore: dropping original table (wp_pmxi_posts)
+0000.651 () Atomic restore: renaming new table (60_pmxi_posts) to final table name (wp_pmxi_posts)
+0000.652 () Processing table (MyISAM): wp_pmxi_templates - will restore as: 60_pmxi_templates
+0000.655 () Atomic restore: dropping original table (wp_pmxi_templates)
+0000.656 () Atomic restore: renaming new table (60_pmxi_templates) to final table name (wp_pmxi_templates)
+0000.656 () Processing table (MyISAM): wp_smush_dir_images - will restore as: 60_smush_dir_images
+0000.658 () Atomic restore: dropping original table (wp_smush_dir_images)
+0000.659 () Atomic restore: renaming new table (60_smush_dir_images) to final table name (wp_smush_dir_images)
+0000.659 () Processing table (MyISAM): wp_wpie_template - will restore as: 60_wpie_template
+0000.662 () Atomic restore: dropping original table (wp_wpie_template)
+0000.662 () Atomic restore: renaming new table (60_wpie_template) to final table name (wp_wpie_template)
+0000.662 () Processing table (MyISAM): wp_yoast_indexable - will restore as: 60_yoast_indexable
+0000.697 () Atomic restore: dropping original table (wp_yoast_indexable)
+0000.698 () Atomic restore: renaming new table (60_yoast_indexable) to final table name (wp_yoast_indexable)
+0000.698 () Processing table (MyISAM): wp_yoast_indexable_hierarchy - will restore as: 60_yoast_indexable_hierarchy
+0000.704 () Atomic restore: dropping original table (wp_yoast_indexable_hierarchy)
+0000.705 () Atomic restore: renaming new table (60_yoast_indexable_hierarchy) to final table name (wp_yoast_indexable_hierarchy)
+0000.705 () Processing table (MyISAM): wp_yoast_migrations - will restore as: 60_yoast_migrations
+0000.707 () Database queries processed: 100 in 0.68 seconds
+0000.708 () Atomic restore: dropping original table (wp_yoast_migrations)
+0000.709 () Atomic restore: renaming new table (60_yoast_migrations) to final table name (wp_yoast_migrations)
+0000.709 () Processing table (MyISAM): wp_yoast_primary_term - will restore as: 60_yoast_primary_term
+0000.712 () Atomic restore: dropping original table (wp_yoast_primary_term)
+0000.713 () Atomic restore: renaming new table (60_yoast_primary_term) to final table name (wp_yoast_primary_term)
+0000.713 () Processing table (MyISAM): wp_yoast_prominent_words - will restore as: 60_yoast_prominent_words
+0000.808 () Atomic restore: dropping original table (wp_yoast_prominent_words)
+0000.810 () Atomic restore: renaming new table (60_yoast_prominent_words) to final table name (wp_yoast_prominent_words)
+0000.811 () Processing table (MyISAM): wp_yoast_seo_links - will restore as: 60_yoast_seo_links
+0000.887 () Unlocking database and leaving maintenance mode
+0000.887 () Menonaktifkan moda perawatan&#8230;
+0000.887 () Atomic restore: dropping original table (wp_yoast_seo_links)
+0000.889 () Atomic restore: renaming new table (60_yoast_seo_links) to final table name (wp_yoast_seo_links)
+0000.890 () Finished: lines processed: 117 in 0.86 seconds
+0000.890 () Membersihkan sampah...
+0000.895 () Entity: plugins
+0000.895 () restore_backup(backup_file=backup_2023-01-21-0626_Ponpes_Darussalam_Purwokerto_74742d7b7439-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:58:"/home/httpdaru/darussalampurwokerto.com/wp-content/plugins";s:11:"description";s:6:"Plugin";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0000.896 () Membuka cadangan... (backup_2023-01-21-0626_Ponpes_Darussalam_Purwokerto_74742d7b7439-plugins.zip, 43 MB)
+0000.896 () Unzipping backup_2023-01-21-0626_Ponpes_Darussalam_Purwokerto_74742d7b7439-plugins.zip to /home/httpdaru/darussalampurwokerto.com/wp-content/upgrade/849193bd/ using UpdraftPlus_ZipArchive, starting index 0
+0001.097 () Unzip progress: 1631 out of 14265 files (3 KB, plugins/amp/vendor/ampproject/amp-toolbox/src/Validator/Spec/Tag/AmpInlineGalleryThumbnails.php)
+0001.298 () Unzip progress: 2632 out of 14265 files (4.7 MB, plugins/updraftplus/vendor/guzzle/guzzle/src/Guzzle/Service/Resource/AbstractResourceIteratorFactory.php)
+0001.487 () Unzip progress: 3633 out of 14265 files (13.7 MB, plugins/td-composer/legacy/Newspaper/includes/demos/voice/td_import.php)
+0001.771 () Unzip progress: 4634 out of 14265 files (38.5 MB, plugins/td-composer/legacy/Newspaper/includes/demos/cov19_italy_report_pro/td_media_8.php)
+0001.939 () Unzip progress: 5635 out of 14265 files (43.7 MB, plugins/td-composer/legacy/Newspaper/includes/demos/decor/td_media_9.php)
+0002.117 () Unzip progress: 6636 out of 14265 files (51.1 MB, plugins/wordpress-seo/admin/import/plugins/class-import-aioseo.php)
+0002.335 () PHP event: code E_NOTICE: fwrite(): write of 2990 bytes failed with errno=122 Disk quota exceeded (line 76, wp-admin/includes/class-wp-filesystem-direct.php)
+0002.865 () Error message: Tidak dapat menyalin berkas.
+0002.865 () Error data (copy_failed_ziparchive): plugins/td-composer/legacy/Newspaper/assets/images/sprite/weather/scattered-clouds-d.png
+0002.868 () Restore failed...
+0002.868 () Error message: Tidak dapat menyalin berkas.
+0002.868 () Error data (copy_failed_ziparchive): plugins/td-composer/legacy/Newspaper/assets/images/sprite/weather/scattered-clouds-d.png
+0002.868 () Restore failed

@@ -1,0 +1,430 @@
+0000.000 (0) Opened log file at time: Wed, 01 Feb 2023 23:25:29 +0000 on https://darussalampurwokerto.com
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.24 WP: 6.1.1 PHP: 7.4.33 (litespeed, Linux flareon.rapidplex.com 3.10.0-962.3.2.lve1.5.66.el7.x86_64 #1 SMP Mon Feb 7 15:53:01 UTC 2022 x86_64) MySQL: 5.7.41 (max packet size=536870912) WPLANG: id_ID Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 16.9M | 18M) multisite: N openssl: OpenSSL 1.1.1p  21 Jun 2022 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.053 (0) Free space on disk containing Updraft's temporary directory: 123480.3 MB
+0000.055 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB: 1 (schedule: weekly)
+0000.058 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.059 (0) Set semaphore last lock (fd) time to 2023-02-01 23:25:29
+0000.059 (0) Semaphore lock (fd) complete
+0000.061 (0) Backup run: resumption=0, nonce=e0fc2ce2932e, file_nonce=e0fc2ce2932e begun at=1675293929 (0s ago), job type=backup
+0000.062 (0) Scheduling a resumption (1) after 300 seconds (1675294229) in case this run gets aborted
+0000.090 (0) Checking if we have a zip executable available
+0000.091 (0) Testing: /usr/bin/zip
+0000.096 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.097 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.097 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.097 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.098 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.102 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.102 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.103 (0) Working binary zip found: /usr/bin/zip
+0000.145 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.146 (0) Creation of backups of directories: beginning
+0000.147 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.690 (0) Total entities for the zip file: 1019 directories, 6278 files (0 skipped as non-modified), 77.1 MB
+0001.694 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.696 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.698 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.701 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.703 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.705 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.707 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.710 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.712 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.745 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.746 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (21.6 MB, 6278 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0004.662 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: size is now: 6.20 MB
+0004.665 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1100 files added (on-disk size: 6352.1 KB)
+0004.667 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1200 files added (on-disk size: 6352.1 KB)
+0004.669 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1300 files added (on-disk size: 6352.1 KB)
+0004.671 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1400 files added (on-disk size: 6352.1 KB)
+0004.673 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1500 files added (on-disk size: 6352.1 KB)
+0004.676 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1600 files added (on-disk size: 6352.1 KB)
+0004.678 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1700 files added (on-disk size: 6352.1 KB)
+0004.680 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1800 files added (on-disk size: 6352.1 KB)
+0004.682 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 1900 files added (on-disk size: 6352.1 KB)
+0004.684 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2000 files added (on-disk size: 6352.1 KB)
+0004.685 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13.6 MB, 6278 files batched, 1001 (2002) added so far); re-opening (prior size: 6352.1 KB)
+0006.193 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: size is now: 10.50 MB
+0006.197 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2100 files added (on-disk size: 10756.2 KB)
+0006.199 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2200 files added (on-disk size: 10756.2 KB)
+0006.202 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2300 files added (on-disk size: 10756.2 KB)
+0006.204 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2400 files added (on-disk size: 10756.2 KB)
+0006.206 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2500 files added (on-disk size: 10756.2 KB)
+0006.208 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2600 files added (on-disk size: 10756.2 KB)
+0006.211 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2700 files added (on-disk size: 10756.2 KB)
+0006.213 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2800 files added (on-disk size: 10756.2 KB)
+0006.215 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 2900 files added (on-disk size: 10756.2 KB)
+0006.217 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3000 files added (on-disk size: 10756.2 KB)
+0006.218 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (13 MB, 6278 files batched, 1001 (3003) added so far); re-opening (prior size: 10756.2 KB)
+0007.846 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: size is now: 15.60 MB
+0007.849 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3100 files added (on-disk size: 15963.8 KB)
+0007.850 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3200 files added (on-disk size: 15963.8 KB)
+0007.852 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3300 files added (on-disk size: 15963.8 KB)
+0007.853 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3400 files added (on-disk size: 15963.8 KB)
+0007.855 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3500 files added (on-disk size: 15963.8 KB)
+0007.856 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3600 files added (on-disk size: 15963.8 KB)
+0007.858 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3700 files added (on-disk size: 15963.8 KB)
+0007.860 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3800 files added (on-disk size: 15963.8 KB)
+0007.861 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 3900 files added (on-disk size: 15963.8 KB)
+0007.863 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4000 files added (on-disk size: 15963.8 KB)
+0007.863 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (4.7 MB, 6278 files batched, 1001 (4004) added so far); re-opening (prior size: 15963.8 KB)
+0008.848 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4100 files added (on-disk size: 17663.4 KB)
+0008.849 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4200 files added (on-disk size: 17663.4 KB)
+0008.851 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4300 files added (on-disk size: 17663.4 KB)
+0008.852 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4400 files added (on-disk size: 17663.4 KB)
+0008.854 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4500 files added (on-disk size: 17663.4 KB)
+0008.855 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4600 files added (on-disk size: 17663.4 KB)
+0008.856 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4700 files added (on-disk size: 17663.4 KB)
+0008.858 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4800 files added (on-disk size: 17663.4 KB)
+0008.860 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 4900 files added (on-disk size: 17663.4 KB)
+0008.861 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5000 files added (on-disk size: 17663.4 KB)
+0008.862 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (11.8 MB, 6278 files batched, 1001 (5005) added so far); re-opening (prior size: 17663.4 KB)
+0010.436 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: size is now: 21.30 MB
+0010.439 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5100 files added (on-disk size: 21796.5 KB)
+0010.441 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5200 files added (on-disk size: 21796.5 KB)
+0010.442 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5300 files added (on-disk size: 21796.5 KB)
+0010.444 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5400 files added (on-disk size: 21796.5 KB)
+0010.445 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5500 files added (on-disk size: 21796.5 KB)
+0010.447 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5600 files added (on-disk size: 21796.5 KB)
+0010.449 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5700 files added (on-disk size: 21796.5 KB)
+0010.451 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5800 files added (on-disk size: 21796.5 KB)
+0010.453 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 5900 files added (on-disk size: 21796.5 KB)
+0010.454 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 6000 files added (on-disk size: 21796.5 KB)
+0010.455 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.2 MB, 6278 files batched, 1001 (6006) added so far); re-opening (prior size: 21796.5 KB)
+0012.083 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 6100 files added (on-disk size: 24684.5 KB)
+0012.085 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.tmp: 6200 files added (on-disk size: 24684.5 KB)
+0012.666 (0) Creating zip file manifest (backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip.list-temp.tmp)
+0012.759 (0) Successfully created zip file manifest (size: 616563)
+0013.274 (0) Created plugins zip (0) - 25649.8 KB in 13.1 s (1957 KB/s) (sha1: 0740cfaba6ac994485990269bb59feec1d743b16, sha256: 70107943d28574497e6a2de5a876f9cbd58f4fcfc87a370bce38cb8dc20c947e)
+0013.281 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0013.281 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8e78c036fa624b5c59f4ed827e348b06)
+0014.410 (0) Google Drive: quota usage: used=5437.6 MB, total=15360 MB, available=9922.4 MB
+0014.411 (0) Google Drive: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip: Attempting to upload to Google Drive (into folder id: 1yf7BSRF-RIbBcuAcEA_rpwZQjs82dlrk)
+0016.144 (0) Googledrive chunked upload: 4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.8 / 28)
+0016.250 (0) Googledrive chunked upload: 12 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 18.8 / 28)
+0016.391 (0) Googledrive chunked upload: 27.9 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 18.8 / 28)
+0016.565 (0) Googledrive chunked upload: 59.9 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 18.8 / 28)
+0017.940 (0) Googledrive chunked upload: 100 % uploaded (15728640)
+0017.942 (0) Google Drive: OK: Archive backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip uploaded in 3.53 seconds
+0017.942 (0) Recording as successfully uploaded: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip
+0017.948 (0) Deleting local file: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip: OK
+0017.950 (0) Beginning creation of dump of themes (split every: 400 MB)
+0017.978 (0) Total entities for the zip file: 12 directories, 50 files (0 skipped as non-modified), 2.5 MB
+0018.085 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip.tmp: size is now: 2.10 MB
+0018.087 (0) Creating zip file manifest (backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip.list-temp.tmp)
+0018.088 (0) Successfully created zip file manifest (size: 3449)
+0018.107 (0) Created themes zip (0) - 2133.5 KB in 0.1 s (15484.6 KB/s) (sha1: 6009cce7fb551d446fc162333c605982aaaf6306, sha256: f12ab6a27880c97d5235dda4192124a98bbbf71b3456481103096a324b89cb54)
+0018.108 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0018.108 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8e78c036fa624b5c59f4ed827e348b06)
+0018.459 (0) Google Drive: quota usage: used=5462.6 MB, total=15360 MB, available=9897.4 MB
+0018.460 (0) Google Drive: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip: Attempting to upload to Google Drive (into folder id: 1yf7BSRF-RIbBcuAcEA_rpwZQjs82dlrk)
+0019.160 (0) Googledrive chunked upload: 48 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.8 / 26)
+0020.387 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0020.389 (0) Google Drive: OK: Archive backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip uploaded in 1.93 seconds
+0020.389 (0) Recording as successfully uploaded: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip
+0020.390 (0) Deleting local file: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip: OK
+0020.392 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0020.393 (0) Looking for candidates to backup in: /home/httpdaru/darussalampurwokerto.com/wp-content/uploads
+0020.393 (0) finding files: 2020: adding to list (1)
+0020.393 (0) finding files: .htaccess: adding to list (2)
+0020.394 (0) finding files: smush-webp-test.png: adding to list (3)
+0020.394 (0) finding files: 2021: adding to list (4)
+0020.395 (0) finding files: wpcode: adding to list (5)
+0020.395 (0) finding files: wpseo-redirects: adding to list (6)
+0020.395 (0) finding files: 2023: adding to list (7)
+0020.395 (0) finding files: 2022: adding to list (8)
+0020.396 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0021.079 (0) Total entities for the zip file: 41 directories, 1634 files (0 skipped as non-modified), 190 MB
+0021.081 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0021.083 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 200 files added (on-disk size: 0 KB)
+0021.084 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 1634 files batched, 295 (295) added so far); re-opening (prior size: 0 KB)
+0021.685 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: size is now: 25.10 MB
+0021.687 (0) A useful amount of data was added after this amount of zip processing: 2.1 s (normalised: 2.1 s, rate: 12464.1 KB/s)
+0021.689 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.0540490150452, normalised_time=2.053902735275, max_time=21.688174962997, data points known=1, old_max_bytes=26214400, new_max_bytes=166086490)
+0021.690 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 300 files added (on-disk size: 25679.4 KB)
+0021.691 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 400 files added (on-disk size: 25679.4 KB)
+0021.693 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 500 files added (on-disk size: 25679.4 KB)
+0021.694 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 600 files added (on-disk size: 25679.4 KB)
+0021.696 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 700 files added (on-disk size: 25679.4 KB)
+0021.698 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 800 files added (on-disk size: 25679.4 KB)
+0021.700 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 900 files added (on-disk size: 25679.4 KB)
+0021.701 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1000 files added (on-disk size: 25679.4 KB)
+0021.706 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1100 files added (on-disk size: 25679.4 KB)
+0021.709 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1200 files added (on-disk size: 25679.4 KB)
+0021.745 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (137.6 MB, 1634 files batched, 1001 (1296) added so far); re-opening (prior size: 25679.4 KB)
+0027.890 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: size is now: 160.20 MB
+0027.893 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1300 files added (on-disk size: 164086.9 KB)
+0027.894 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1400 files added (on-disk size: 164086.9 KB)
+0027.896 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1500 files added (on-disk size: 164086.9 KB)
+0027.898 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.tmp: 1600 files added (on-disk size: 164086.9 KB)
+0031.065 (0) Creating zip file manifest (backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip.list-temp.tmp)
+0031.078 (0) Successfully created zip file manifest (size: 118855)
+0034.083 (0) Created uploads zip (0) - 192267.7 KB in 13.7 s (14067.7 KB/s) (sha1: e43676a0eae73c1f6a1d5e74600b36a765cb9df5, sha256: 3cd4821cf5b95da325752f29a68732b40fdc5d13f915ec1ff5c042c7551a6109)
+0034.086 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0034.086 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8e78c036fa624b5c59f4ed827e348b06)
+0034.486 (0) Google Drive: quota usage: used=5464.7 MB, total=15360 MB, available=9895.3 MB
+0034.487 (0) Google Drive: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip: Attempting to upload to Google Drive (into folder id: 1yf7BSRF-RIbBcuAcEA_rpwZQjs82dlrk)
+0035.152 (0) Googledrive chunked upload: 0.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18 / 28)
+0035.286 (0) Googledrive chunked upload: 1.6 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 18 / 28)
+0035.438 (0) Googledrive chunked upload: 3.7 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 18 / 28)
+0035.860 (0) Googledrive chunked upload: 8 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 18 / 28)
+0036.333 (0) Googledrive chunked upload: 16.5 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 18 / 28)
+0037.346 (0) Googledrive chunked upload: 33.6 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 18 / 28)
+0039.056 (0) Googledrive chunked upload: 67.6 % uploaded (133169152)
+0041.889 (0) Googledrive chunked upload: 100 % uploaded (133169152)
+0041.890 (0) Google Drive: OK: Archive backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip uploaded in 7.4 seconds
+0041.891 (0) Recording as successfully uploaded: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip
+0041.930 (0) Deleting local file: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip: OK
+0041.933 (0) Beginning backup of other directories found in the content directory (index: 0)
+0041.933 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0041.933 (0) Looking for candidates to backup in: /home/httpdaru/darussalampurwokerto.com/wp-content
+0041.934 (0) finding files: themes: skipping: this is the themes directory
+0041.934 (0) finding files: uploads: skipping: this is the uploads directory
+0041.934 (0) finding files: sgo-config.php: adding to list (1)
+0041.935 (0) finding files: td_cache: adding to list (2)
+0041.935 (0) finding files: upgrade: skipping: excluded by options
+0041.935 (0) finding files: smush-webp: adding to list (3)
+0041.936 (0) finding files: languages: adding to list (4)
+0041.936 (0) finding files: updraft: skipping: this is the updraft directory
+0041.936 (0) finding files: index.php: adding to list (5)
+0041.937 (0) finding files: plugins: skipping: this is the plugins directory
+0041.975 (0) Total entities for the zip file: 7 directories, 156 files (0 skipped as non-modified), 3.4 MB
+0041.977 (0) Zip: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0042.226 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip.tmp: size is now: 1.00 MB
+0042.229 (0) Creating zip file manifest (backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip.list-temp.tmp)
+0042.231 (0) Successfully created zip file manifest (size: 11479)
+0042.248 (0) Created others zip (0) - 1024.4 KB in 0.3 s (3581.8 KB/s) (sha1: 7859c4c83b60edd86ee0cde20be013aa29c90360, sha256: 85c4f99f4c0b2d6499e29b843264bbc4265421f6adf67878b22aa6ddc5c76a42)
+0042.251 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0042.252 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8e78c036fa624b5c59f4ed827e348b06)
+0042.640 (0) Google Drive: quota usage: used=5464.7 MB, total=15360 MB, available=9895.3 MB
+0042.641 (0) Google Drive: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip: Attempting to upload to Google Drive (into folder id: 1yf7BSRF-RIbBcuAcEA_rpwZQjs82dlrk)
+0043.318 (0) Googledrive chunked upload: 100 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.8 / 28)
+0044.380 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0044.381 (0) Google Drive: OK: Archive backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip uploaded in 1.74 seconds
+0044.381 (0) Recording as successfully uploaded: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip
+0044.382 (0) Deleting local file: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip: OK
+0044.385 (0) Saving backup status to database (elements: 8)
+0044.386 (0) Beginning creation of database dump (WordPress DB)
+0044.387 (0) SQL compatibility mode is: IGNORE_SPACE,NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0044.388 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0044.426 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1535 bytes total)
+0044.428 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0044.472 (0) Table wp_options: Total expected rows (via COUNT): 403
+0044.472 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.556 (0) Table wp_options: Rows added in this batch (next record: 356191): 397 (uncompressed bytes in this segment=2045166) in 0.11 seconds
+0044.565 (0) Table wp_options: finishing file(s) (2, 382.9 KB)
+0044.568 (0) Table wp_users: Total expected rows (via COUNT): 10
+0044.572 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.574 (0) Table wp_users: Rows added in this batch (next record: 10): 10 (uncompressed bytes in this segment=2835) in 0.01 seconds
+0044.577 (0) Table wp_users: finishing file(s) (2, 1.2 KB)
+0044.580 (0) Table wp_usermeta: Total expected rows (via COUNT): 473
+0044.580 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.586 (0) Table wp_usermeta: Rows added in this batch (next record: 483): 473 (uncompressed bytes in this segment=42162) in 0.01 seconds
+0044.593 (0) Table wp_usermeta: finishing file(s) (2, 9.4 KB)
+0044.597 (0) Table wp_commentmeta: Total expected rows (via COUNT): 2
+0044.597 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.599 (0) Table wp_commentmeta: Rows added in this batch (next record: 392): 2 (uncompressed bytes in this segment=821) in 0.00 seconds
+0044.601 (0) Table wp_commentmeta: finishing file(s) (2, 0.5 KB)
+0044.603 (0) Table wp_comments: Total expected rows (via COUNT): 5
+0044.603 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.604 (0) Table wp_comments: Rows added in this batch (next record: 211): 5 (uncompressed bytes in this segment=5990) in 0.00 seconds
+0044.606 (0) Table wp_comments: finishing file(s) (2, 2.4 KB)
+0044.609 (0) Table wp_links: Total expected rows (via COUNT): 0
+0044.610 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1270) in 0.00 seconds
+0044.611 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0044.613 (0) Table wp_postmeta: Total expected rows (approximate): 20007
+0044.754 (0) Table wp_postmeta: binary mysqldump finished (writes: 35, bytes 3795798, return code 0) in 0.14 seconds
+0044.756 (0) Table wp_postmeta: finishing file(s) (1, 455.7 KB)
+0044.789 (0) Table wp_posts: Total expected rows (via COUNT): 576
+0044.892 (0) Table wp_posts: Rows added in this batch (next record: 4406): 576 (uncompressed bytes in this segment=3067997) in 0.13 seconds
+0044.895 (0) Table wp_posts: finishing file(s) (2, 454.4 KB)
+0044.897 (0) Table wp_term_relationships: Total expected rows (approximate): 394
+0044.912 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 394 (uncompressed bytes in this segment=7140) in 0.01 seconds
+0044.918 (0) Table wp_term_relationships: finishing file(s) (2, 1.6 KB)
+0044.922 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 165
+0044.922 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.926 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 340): 165 (uncompressed bytes in this segment=6585) in 0.01 seconds
+0044.930 (0) Table wp_term_taxonomy: finishing file(s) (2, 1.5 KB)
+0044.933 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0044.934 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=665) in 0.00 seconds
+0044.937 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0044.940 (0) Table wp_terms: Total expected rows (via COUNT): 165
+0044.940 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0044.945 (0) Table wp_terms: Rows added in this batch (next record: 340): 165 (uncompressed bytes in this segment=7571) in 0.01 seconds
+0044.948 (0) Table wp_terms: finishing file(s) (2, 2.5 KB)
+0044.952 (0) Table wp_pmxe_exports: Total expected rows (via COUNT): 0
+0044.954 (0) Table wp_pmxe_exports: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1394) in 0.00 seconds
+0044.957 (0) Table wp_pmxe_exports: finishing file(s) (2, 0.5 KB)
+0044.960 (0) Table wp_pmxe_google_cats: Total expected rows (approximate): 5371
+0045.072 (0) Table wp_pmxe_google_cats: Rows added in this batch (next record: 505832): 5371 (uncompressed bytes in this segment=327577) in 0.11 seconds
+0045.075 (0) Table wp_pmxe_google_cats: finishing file(s) (2, 74.4 KB)
+0045.077 (0) Table wp_pmxe_posts: Total expected rows (via COUNT): 0
+0045.078 (0) Table wp_pmxe_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=547) in 0.00 seconds
+0045.080 (0) Table wp_pmxe_posts: finishing file(s) (2, 0.3 KB)
+0045.084 (0) Table wp_pmxe_templates: Total expected rows (via COUNT): 0
+0045.084 (0) Table wp_pmxe_templates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=565) in 0.00 seconds
+0045.087 (0) Table wp_pmxe_templates: finishing file(s) (2, 0.4 KB)
+0045.090 (0) Table wp_pmxi_files: Total expected rows (via COUNT): 1
+0045.090 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.092 (0) Table wp_pmxi_files: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=797) in 0.00 seconds
+0045.094 (0) Table wp_pmxi_files: finishing file(s) (2, 0.5 KB)
+0045.098 (0) Table wp_pmxi_hash: Total expected rows (approximate): 0
+0045.099 (0) Table wp_pmxi_hash: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=545) in 0.00 seconds
+0045.101 (0) Table wp_pmxi_hash: finishing file(s) (2, 0.3 KB)
+0045.104 (0) Table wp_pmxi_history: Total expected rows (via COUNT): 0
+0045.104 (0) Table wp_pmxi_history: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=730) in 0.00 seconds
+0045.106 (0) Table wp_pmxi_history: finishing file(s) (2, 0.4 KB)
+0045.109 (0) Table wp_pmxi_images: Total expected rows (via COUNT): 0
+0045.110 (0) Table wp_pmxi_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=619) in 0.00 seconds
+0045.112 (0) Table wp_pmxi_images: finishing file(s) (2, 0.4 KB)
+0045.117 (0) Table wp_pmxi_imports: Total expected rows (via COUNT): 1
+0045.117 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.119 (0) Table wp_pmxi_imports: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=10955) in 0.00 seconds
+0045.121 (0) Table wp_pmxi_imports: finishing file(s) (2, 3 KB)
+0045.124 (0) Table wp_pmxi_posts: Total expected rows (via COUNT): 0
+0045.126 (0) Table wp_pmxi_posts: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=687) in 0.00 seconds
+0045.146 (0) Table wp_pmxi_posts: finishing file(s) (2, 0.4 KB)
+0045.151 (0) Table wp_pmxi_templates: Total expected rows (via COUNT): 0
+0045.152 (0) Table wp_pmxi_templates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=924) in 0.00 seconds
+0045.154 (0) Table wp_pmxi_templates: finishing file(s) (2, 0.4 KB)
+0045.157 (0) Table wp_smush_dir_images: Total expected rows (via COUNT): 0
+0045.158 (0) Table wp_smush_dir_images: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1065) in 0.00 seconds
+0045.160 (0) Table wp_smush_dir_images: finishing file(s) (2, 0.5 KB)
+0045.164 (0) Table wp_tm_taskmeta: Total expected rows (via COUNT): 0
+0045.165 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.00 seconds
+0045.167 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0045.171 (0) Table wp_tm_tasks: Total expected rows (via COUNT): 0
+0045.173 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.00 seconds
+0045.175 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0045.179 (0) Table wp_wpie_template: Total expected rows (via COUNT): 1
+0045.180 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.181 (0) Table wp_wpie_template: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=6359) in 0.00 seconds
+0045.183 (0) Table wp_wpie_template: finishing file(s) (2, 1.8 KB)
+0045.187 (0) Table wp_wpvivid_options: Total expected rows (via COUNT): 0
+0045.188 (0) Table wp_wpvivid_options: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=556) in 0.00 seconds
+0045.194 (0) Table wp_wpvivid_options: finishing file(s) (2, 0.3 KB)
+0045.198 (0) Table wp_yoast_indexable: Total expected rows (via COUNT): 400
+0045.198 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.228 (0) Table wp_yoast_indexable: Rows added in this batch (next record: 984): 400 (uncompressed bytes in this segment=287657) in 0.03 seconds
+0045.231 (0) Table wp_yoast_indexable: finishing file(s) (2, 44.6 KB)
+0045.233 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 354
+0045.235 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 354 (uncompressed bytes in this segment=6960) in 0.00 seconds
+0045.237 (0) Table wp_yoast_indexable_hierarchy: finishing file(s) (2, 1.5 KB)
+0045.240 (0) Table wp_yoast_migrations: Total expected rows (via COUNT): 25
+0045.241 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.242 (0) Table wp_yoast_migrations: Rows added in this batch (next record: 25): 25 (uncompressed bytes in this segment=1241) in 0.00 seconds
+0045.244 (0) Table wp_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0045.246 (0) Table wp_yoast_primary_term: Total expected rows (via COUNT): 64
+0045.249 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0045.252 (0) Table wp_yoast_primary_term: Rows added in this batch (next record: 69): 64 (uncompressed bytes in this segment=5894) in 0.01 seconds
+0045.253 (0) Table wp_yoast_primary_term: finishing file(s) (2, 1.6 KB)
+0045.256 (0) Table wp_yoast_prominent_words: Total expected rows (approximate): 3217
+0045.303 (0) Table wp_yoast_prominent_words: Rows added in this batch (next record: 3387): 3217 (uncompressed bytes in this segment=95358) in 0.05 seconds
+0045.346 (0) Table wp_yoast_prominent_words: finishing file(s) (2, 22.5 KB)
+0045.349 (0) Table wp_yoast_seo_links: Total expected rows (via COUNT): 617
+0045.360 (0) Table wp_yoast_seo_links: Rows added in this batch (next record: 2447): 617 (uncompressed bytes in this segment=83073) in 0.01 seconds
+0045.363 (0) Table wp_yoast_seo_links: finishing file(s) (2, 9.2 KB)
+0045.364 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_options.table.tmpr356192.gz (1/34/fopen): adding to final database dump
+0045.373 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_options.table.gz (2/34/fopen): adding to final database dump
+0045.373 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_users.table.tmpr11.gz (3/34/fopen): adding to final database dump
+0045.374 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_users.table.gz (4/34/fopen): adding to final database dump
+0045.374 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_usermeta.table.tmpr484.gz (5/34/fopen): adding to final database dump
+0045.375 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_usermeta.table.gz (6/34/fopen): adding to final database dump
+0045.375 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_commentmeta.table.tmpr393.gz (7/34/fopen): adding to final database dump
+0045.375 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_commentmeta.table.gz (8/34/fopen): adding to final database dump
+0045.376 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_comments.table.tmpr212.gz (9/34/fopen): adding to final database dump
+0045.376 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_comments.table.gz (10/34/fopen): adding to final database dump
+0045.376 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_links.table.tmpr0.gz (11/34/fopen): adding to final database dump
+0045.377 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_links.table.gz (12/34/fopen): adding to final database dump
+0045.377 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_postmeta.table.gz (13/34/fopen): adding to final database dump
+0045.388 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_posts.table.tmpr4407.gz (14/34/fopen): adding to final database dump
+0045.398 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_posts.table.gz (15/34/fopen): adding to final database dump
+0045.399 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_term_relationships.table.tmpr100001.gz (16/34/fopen): adding to final database dump
+0045.399 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_term_relationships.table.gz (17/34/fopen): adding to final database dump
+0045.400 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_term_taxonomy.table.tmpr341.gz (18/34/fopen): adding to final database dump
+0045.400 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_term_taxonomy.table.gz (19/34/fopen): adding to final database dump
+0045.400 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_termmeta.table.tmpr0.gz (20/34/fopen): adding to final database dump
+0045.401 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_termmeta.table.gz (21/34/fopen): adding to final database dump
+0045.401 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_terms.table.tmpr341.gz (22/34/fopen): adding to final database dump
+0045.402 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_terms.table.gz (23/34/fopen): adding to final database dump
+0045.402 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_exports.table.tmpr0.gz (24/34/fopen): adding to final database dump
+0045.402 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_exports.table.gz (25/34/fopen): adding to final database dump
+0045.403 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_google_cats.table.tmpr505833.gz (26/34/fopen): adding to final database dump
+0045.405 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_google_cats.table.gz (27/34/fopen): adding to final database dump
+0045.405 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_posts.table.tmpr0.gz (28/34/fopen): adding to final database dump
+0045.405 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_posts.table.gz (29/34/fopen): adding to final database dump
+0045.406 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_templates.table.tmpr0.gz (30/34/fopen): adding to final database dump
+0045.406 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxe_templates.table.gz (31/34/fopen): adding to final database dump
+0045.407 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_files.table.tmpr2.gz (32/34/fopen): adding to final database dump
+0045.407 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_files.table.gz (33/34/fopen): adding to final database dump
+0045.407 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_hash.table.tmpr1.gz (34/34/fopen): adding to final database dump
+0045.408 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_hash.table.gz (35/34/fopen): adding to final database dump
+0045.408 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_history.table.tmpr0.gz (36/34/fopen): adding to final database dump
+0045.409 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_history.table.gz (37/34/fopen): adding to final database dump
+0045.409 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_images.table.tmpr0.gz (38/34/fopen): adding to final database dump
+0045.409 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_images.table.gz (39/34/fopen): adding to final database dump
+0045.410 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_imports.table.tmpr2.gz (40/34/fopen): adding to final database dump
+0045.410 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_imports.table.gz (41/34/fopen): adding to final database dump
+0045.410 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_posts.table.tmpr0.gz (42/34/fopen): adding to final database dump
+0045.411 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_posts.table.gz (43/34/fopen): adding to final database dump
+0045.411 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_templates.table.tmpr0.gz (44/34/fopen): adding to final database dump
+0045.412 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_pmxi_templates.table.gz (45/34/fopen): adding to final database dump
+0045.412 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_smush_dir_images.table.tmpr0.gz (46/34/fopen): adding to final database dump
+0045.412 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_smush_dir_images.table.gz (47/34/fopen): adding to final database dump
+0045.413 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_tm_taskmeta.table.tmpr0.gz (48/34/fopen): adding to final database dump
+0045.413 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_tm_taskmeta.table.gz (49/34/fopen): adding to final database dump
+0045.413 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_tm_tasks.table.tmpr0.gz (50/34/fopen): adding to final database dump
+0045.414 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_tm_tasks.table.gz (51/34/fopen): adding to final database dump
+0045.414 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_wpie_template.table.tmpr2.gz (52/34/fopen): adding to final database dump
+0045.414 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_wpie_template.table.gz (53/34/fopen): adding to final database dump
+0045.415 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_wpvivid_options.table.tmpr0.gz (54/34/fopen): adding to final database dump
+0045.415 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_wpvivid_options.table.gz (55/34/fopen): adding to final database dump
+0045.415 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_indexable.table.tmpr985.gz (56/34/fopen): adding to final database dump
+0045.417 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_indexable.table.gz (57/34/fopen): adding to final database dump
+0045.417 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_indexable_hierarchy.table.tmpr1001.gz (58/34/fopen): adding to final database dump
+0045.418 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_indexable_hierarchy.table.gz (59/34/fopen): adding to final database dump
+0045.418 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_migrations.table.tmpr26.gz (60/34/fopen): adding to final database dump
+0045.418 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_migrations.table.gz (61/34/fopen): adding to final database dump
+0045.419 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_primary_term.table.tmpr70.gz (62/34/fopen): adding to final database dump
+0045.419 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_primary_term.table.gz (63/34/fopen): adding to final database dump
+0045.419 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_prominent_words.table.tmpr3388.gz (64/34/fopen): adding to final database dump
+0045.420 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_prominent_words.table.gz (65/34/fopen): adding to final database dump
+0045.421 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_seo_links.table.tmpr2448.gz (66/34/fopen): adding to final database dump
+0045.421 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db-table-wp_yoast_seo_links.table.gz (67/34/fopen): adding to final database dump
+0045.429 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz: finished writing out complete database file (1477.3 KB)
+0045.447 (0) Total database tables backed up: 34 (backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz, size: 1512854, sha1: f844843e760fccbf8307b1feddd0c13b5bdfe975, sha256: b7644d106882f0d507633125ed24564cbaf4efc334ebf7a3665a3ba766904131)
+0045.449 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-plugins.zip: plugins: This file has already been successfully uploaded
+0045.450 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-themes.zip: themes: This file has already been successfully uploaded
+0045.450 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-uploads.zip: uploads: This file has already been successfully uploaded
+0045.450 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-others.zip: others: This file has already been successfully uploaded
+0045.451 (0) backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz: db: This file has not yet been successfully uploaded: will queue
+0045.451 (0) Saving backup history. Total backup size: 217.3 MB
+0045.452 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0045.453 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.454 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-8e78c036fa624b5c59f4ed827e348b06)
+0045.837 (0) Google Drive: quota usage: used=5653.5 MB, total=15360 MB, available=9706.5 MB
+0045.839 (0) Google Drive: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz: Attempting to upload to Google Drive (into folder id: 1yf7BSRF-RIbBcuAcEA_rpwZQjs82dlrk)
+0046.542 (0) Googledrive chunked upload: 69.3 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 18.4 / 36)
+0047.603 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0047.605 (0) Google Drive: OK: Archive backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz uploaded in 1.77 seconds
+0047.605 (0) Recording as successfully uploaded: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz
+0047.606 (0) Deleting local file: backup_2023-02-01-2325_Ponpes_Darussalam_Purwokerto_e0fc2ce2932e-db.gz: OK
+0047.607 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=5, retain_db=5
+0047.608 (0) Number of backup sets in history: 1; groups (db): 1
+0047.608 (0) Examining (for databases) backup set with group_id=0, nonce=e0fc2ce2932e, datestamp=1675293929 (Feb 01 2023 23:25:29)
+0047.609 (0) This backup set is the backup set just made, so will not be deleted.
+0047.609 (0) Number of backup sets in history: 1; groups (files): 1
+0047.609 (0) Examining (for files) backup set with nonce=e0fc2ce2932e, datestamp=1675293929 (Feb 01 2023 23:25:29)
+0047.609 (0) This backup set is the backup set just made, so will not be deleted.
+0047.609 (0) This backup set is the backup set just made, so will not be deleted.
+0047.610 (0) This backup set is the backup set just made, so will not be deleted.
+0047.610 (0) This backup set is the backup set just made, so will not be deleted.
+0047.610 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0047.610 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0047.611 (0) Resume backup (e0fc2ce2932e, 0): finish run
+0047.612 (0) Decremented the semaphore (fd) by 1
+0047.612 (0) Semaphore (fd) unlocked
+0047.613 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0047.614 (0) The backup apparently succeeded and is now complete
+0047.614 (0) No email will/can be sent - the user has not configured an email address.
+0047.615 (0) Pencadangan berhasil dan telah selesai.

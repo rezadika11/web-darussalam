@@ -1,0 +1,53 @@
+[22-Jan-2023 01:14:30 UTC] Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages. DETAIL:mysqldump: Couldn't execute 'FLUSH TABLES': Access denied; you need (at least one of) the RELOAD privilege(s) for this operation (1227)
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+/* Duplicator WordPress Timestamp: 2023-01-22 01:14:30*/
+/* DUPLICATOR_MYSQLDUMP_EOF */
+[22-Jan-2023 01:14:30 UTC] Runtime error in DUP_Database::Build. Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages. DETAIL:Exception: Exception: Shell mysql dump error. Change SQL Mode to the "PHP Code" in the Duplicator > Settings > Packages. in /home/httpdaru/darussalampurwokerto.com/wp-content/plugins/duplicator/classes/class.logging.php:300
+Stack trace:
+#0 /home/httpdaru/darussalampurwokerto.com/wp-content/plugins/duplicator/classes/package/class.pack.database.php(594): DUP_Log::error('Shell mysql dum...', 'mysqldump: Coul...', 1)
+#1 /home/httpdaru/darussalampurwokerto.com/wp-content/plugins/duplicator/classes/package/class.pack.database.php(220): DUP_Database->mysqlDump('mysqldump')
+#2 /home/httpdaru/darussalampurwokerto.com/wp-content/plugins/duplicator/classes/package/class.pack.php(1366): DUP_Database->build(Object(DUP_Package), 1)
+#3 /home/httpdaru/darussalampurwokerto.com/wp-content/plugins/duplicator/ctrls/ctrl.package.php(89): DUP_Package->runZipBuild()
+#4 /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-hook.php(308): duplicator_package_build('')
+#5 /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters('', Array)
+#6 /home/httpdaru/darussalampurwokerto.com/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#7 /home/httpdaru/darussalampurwokerto.com/wp-admin/admin-ajax.php(188): do_action('wp_ajax_duplica...')
+#8 {main}
+[01-Feb-2023 14:22:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function trailingslashit() in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php:103
+Stack trace:
+#0 /home/httpdaru/darussalampurwokerto.com/wp-includes/l10n.php(784): WP_Textdomain_Registry->set('default', 'id_ID', '/home/httpdaru/...')
+#1 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(1401): load_textdomain('default', '/home/httpdaru/...', 'id_ID')
+#2 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(278): wp_load_translations_early()
+#3 /home/httpdaru/darussalampurwokerto.com/wp-settings.php(74): wp_maintenance()
+#4 /home/httpdaru/darussalampurwokerto.com/wp-config.php(100): require_once('/home/httpdaru/...')
+#5 /home/httpdaru/darussalampurwokerto.com/wp-load.php(50): require_once('/home/httpdaru/...')
+#6 /home/httpdaru/darussalampurwokerto.com/wp-admin/admin-ajax.php(22): require_once('/home/httpdaru/...')
+#7 {main}
+  thrown in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php on line 103
+[01-Feb-2023 14:23:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function trailingslashit() in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php:103
+Stack trace:
+#0 /home/httpdaru/darussalampurwokerto.com/wp-includes/l10n.php(784): WP_Textdomain_Registry->set('default', 'id_ID', '/home/httpdaru/...')
+#1 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(1401): load_textdomain('default', '/home/httpdaru/...', 'id_ID')
+#2 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(278): wp_load_translations_early()
+#3 /home/httpdaru/darussalampurwokerto.com/wp-settings.php(74): wp_maintenance()
+#4 /home/httpdaru/darussalampurwokerto.com/wp-config.php(100): require_once('/home/httpdaru/...')
+#5 /home/httpdaru/darussalampurwokerto.com/wp-load.php(50): require_once('/home/httpdaru/...')
+#6 /home/httpdaru/darussalampurwokerto.com/wp-admin/admin-ajax.php(22): require_once('/home/httpdaru/...')
+#7 {main}
+  thrown in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php on line 103
+[01-Feb-2023 14:23:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function trailingslashit() in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php:103
+Stack trace:
+#0 /home/httpdaru/darussalampurwokerto.com/wp-includes/l10n.php(784): WP_Textdomain_Registry->set('default', 'id_ID', '/home/httpdaru/...')
+#1 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(1401): load_textdomain('default', '/home/httpdaru/...', 'id_ID')
+#2 /home/httpdaru/darussalampurwokerto.com/wp-includes/load.php(278): wp_load_translations_early()
+#3 /home/httpdaru/darussalampurwokerto.com/wp-settings.php(74): wp_maintenance()
+#4 /home/httpdaru/darussalampurwokerto.com/wp-config.php(100): require_once('/home/httpdaru/...')
+#5 /home/httpdaru/darussalampurwokerto.com/wp-load.php(50): require_once('/home/httpdaru/...')
+#6 /home/httpdaru/darussalampurwokerto.com/wp-admin/admin-ajax.php(22): require_once('/home/httpdaru/...')
+#7 {main}
+  thrown in /home/httpdaru/darussalampurwokerto.com/wp-includes/class-wp-textdomain-registry.php on line 103
